@@ -59,9 +59,7 @@ def full?(board)
   if val.count < 1
   return true
 elsif val.count >= 1
-if draw?(board) == false
     return false
-  end
 end
 end
 
@@ -73,4 +71,4 @@ def draw?(board)
   end
 end
 
-puts won?(["O", "O", " ", "X", "X", "X", " ", " ", " "])
+puts draw?(["O", "O", " ", "X", "X", "X", " ", " ", " "])
