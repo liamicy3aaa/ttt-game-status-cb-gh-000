@@ -64,5 +64,12 @@ elsif val.count >= 1
 end
 end
 
+def draw?(board)
+  if full?(board) == true && won?(board) == false
+    return true
+  else
+    return false
+  end
+end
 
 puts won?(["O", "O", " ", "X", "X", "X", " ", " ", " "])
