@@ -54,7 +54,7 @@ end
 def full?(board)
   val = board
   val.reject do |as|
-    as != "X" || as != "O"
+    as == "X" || as == "O"
   end
   if val.count < 1
   return true
