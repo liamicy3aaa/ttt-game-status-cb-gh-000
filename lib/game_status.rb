@@ -59,7 +59,7 @@ def full?(board)
  # val.reject do |as|
   #  as == "X" || as == "O"
  # end
-   if asdf == true
+  if asdf == true
   return true
 elsif asdf == false
 puts " #{val}"
