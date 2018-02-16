@@ -79,4 +79,4 @@ def over?(board)
   end
 end
 
-puts draw?(["O", "O", "X", "X", "X", "O", "O", "X", "O"])
+puts over?(["O", "O", "X", "X", "X", "O", "O", "X", "O"])
