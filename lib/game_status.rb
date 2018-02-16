@@ -53,15 +53,15 @@ end
 
 def full?(board)
   val = board
-  val.all do |asd|
+  asdf = val.all do |asd|
     as == "X" || as == "O"
   end
-  val.reject do |as|
-    as == "X" || as == "O"
-  end
-  if val.count < 1
+ # val.reject do |as|
+  #  as == "X" || as == "O"
+ # end
+   if asdf == true
   return true
-elsif val.count >= 1
+elsif asdf == false
 puts " #{val}"
     return false
 end
