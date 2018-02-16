@@ -54,7 +54,7 @@ end
 def full?(board)
   val = board
   asdf = val.all? do |asd|
-    as == "X" || as == "O"
+    asd == "X" || asd == "O"
   end
  # val.reject do |as|
   #  as == "X" || as == "O"
