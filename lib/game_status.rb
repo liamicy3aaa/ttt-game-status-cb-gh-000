@@ -85,7 +85,7 @@ end
 
 def winner(board)
   val = won?(board)
-  winner = val[0]
+  winner = board[val[0]]
   return winner
 end
 
