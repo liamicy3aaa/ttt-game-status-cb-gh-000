@@ -71,4 +71,4 @@ def draw?(board)
   end
 end
 
-puts draw?(["O", "O", " ", "X", "X", "X", " ", " ", " "])
+puts draw?(["O", "O", "X", "X", "X", "X", "O", "O", "O"])
