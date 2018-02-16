@@ -71,4 +71,12 @@ def draw?(board)
   end
 end
 
+def over?(board)
+  if draw?(board) == true || full? == true || won?(board) == true
+    return true
+  else
+    return false
+  end
+end
+
 puts draw?(["O", "O", "X", "X", "X", "O", "O", "X", "O"])
