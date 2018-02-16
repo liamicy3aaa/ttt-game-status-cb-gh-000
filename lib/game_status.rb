@@ -83,4 +83,4 @@ def over?(board)
   end
 end
 
-#puts over?(["O", "O", "X", "X", "X", "O", "O", "X", "O"])
+puts over?(["O", "O", "X", "X", "X", "O", "O", "X", "O"])
