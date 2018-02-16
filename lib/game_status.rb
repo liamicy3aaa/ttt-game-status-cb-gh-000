@@ -85,8 +85,12 @@ end
 
 def winner(board)
   val = won?(board)
-  winner = board[val[0]]
+  if val == false
+    return nil
+  else
+    winner = board[val[0]]
   return winner
+end
 end
 
 puts over?(["O", "O", "O", "X", "X", " ", "O", "X", "O"])
