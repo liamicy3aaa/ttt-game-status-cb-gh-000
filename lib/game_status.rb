@@ -59,7 +59,9 @@ def full?(board)
   if val.count < 1
   return true
 elsif val.count >= 1
-  return false
+if draw?(board) == false
+    return false
+  end
 end
 end
 
