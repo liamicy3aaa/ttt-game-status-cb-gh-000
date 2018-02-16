@@ -59,6 +59,7 @@ def full?(board)
   if val.count < 1
   return true
 elsif val.count >= 1
+puts " #{val}"
     return false
 end
 end
