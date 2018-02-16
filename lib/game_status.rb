@@ -75,4 +75,4 @@ def draw?(board)
   end
 end
 
-puts full?(["O", "O", "X", "X", "X", "O", "O", "X", "O"])
+puts full?(["O", "O", "X", " ", "X", "O", "O", "X", "O"])
