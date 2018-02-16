@@ -71,4 +71,4 @@ def draw?(board)
   end
 end
 
-puts WON?(["O", "O", "X", "X", "X", "X", "O", "X", "O"])
+puts won?(["O", "O", "X", "X", "X", "X", "O", "X", "O"])
