@@ -83,4 +83,4 @@ def over?(board)
   end
 end
 
-puts over?(["O", "O", "O", "X", "X", " ", "O", "X", "O"])
+puts won?(["O", "O", "O", "X", "X", " ", "O", "X", "O"])
