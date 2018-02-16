@@ -83,4 +83,10 @@ def over?(board)
   end
 end
 
+def winner(board)
+  val = won?(board)
+  winner = val[0]
+  return winner
+end
+
 puts over?(["O", "O", "O", "X", "X", " ", "O", "X", "O"])
